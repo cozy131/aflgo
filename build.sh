@@ -113,9 +113,9 @@ export CXX=`which clang++`
 export CC=`which clang`
 export LLVM_CONFIG=`which llvm-config`
 
-# pushd afl-2.57b
-# make clean all
-# popd
+pushd afl-2.57b
+make clean all
+popd
 
 pushd instrument
 make clean all
