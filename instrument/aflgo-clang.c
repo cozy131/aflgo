@@ -12,10 +12,10 @@
 
 #define AFL_MAIN
 
-#include "../afl-2.57b/config.h"
-#include "../afl-2.57b/types.h"
-#include "../afl-2.57b/debug.h"
-#include "../afl-2.57b/alloc-inl.h"
+#include "../../aflnet/config.h"
+#include "../../aflnet/types.h"
+#include "../../aflnet/debug.h"
+#include "../../aflnet/alloc-inl.h"
 
 #include <stdio.h>
 #include <unistd.h>

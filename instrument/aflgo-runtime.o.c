@@ -12,8 +12,8 @@
 
 */
 
-#include "../afl-2.57b/config.h"
-#include "../afl-2.57b/types.h"
+#include "../../aflnet/config.h"
+#include "../../aflnet/types.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -38,7 +38,7 @@
 //#define AFLGO_TRACING
 
 #ifdef AFLGO_TRACING
-#include "../afl-2.57b/hash.h"
+#include "../../aflnet/hash.h"
 #include "hashset.h"
 #include <assert.h>
 

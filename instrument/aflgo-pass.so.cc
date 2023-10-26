@@ -14,8 +14,8 @@
 
 #define AFL_LLVM_PASS
 
-#include "../afl-2.57b/config.h"
-#include "../afl-2.57b/debug.h"
+#include "../../aflnet/config.h"
+#include "../../aflnet/debug.h"
 
 #include <stdio.h>
 #include <stdlib.h>
